@@ -57,6 +57,7 @@ hold off;
 % term is handled
 X = mapFeature(X(:,1), X(:,2));
 
+
 % Initialize fitting parameters
 initial_theta = zeros(size(X, 2), 1);
 
